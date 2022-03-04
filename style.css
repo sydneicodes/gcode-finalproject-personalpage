@@ -3,15 +3,16 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 21px;
+}
 .first {
     text-align:center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 95vh;
-    margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -33,6 +34,8 @@ h2 {
 p {
     text-align: center; 
     font-size: 25px;
+    margin-left:15%;
+    margin-right:15%;
 }
 
 
@@ -48,50 +51,31 @@ section {
 #accessible-photo {
     width:10%;
 }
-.make-yoga-accessible {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 95vh;
-    margin: 0;
-    background-color: #81BEFB;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} 
 
 #question-mark {
     width: 5%;
-}
-.what-is-yoga {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 95vh;
-    margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #benefits-photo {
     width: 10%;
 }
-.benefits {
+.yoga-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 95vh;
+    width: auto;
     margin: 0;
-    background-color:#81BEFB;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #benefits-list {
+    list-style-type: none;
     font-size: 25px;
-}
-
-#resources {
-    text-decoration: bold;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #quote {
@@ -101,6 +85,7 @@ section {
     margin-left: 60px;
     margin-top:50px;
     border:3px dotted black;
+    font-style: italic;
 }
 
 #resources-photo {
@@ -137,5 +122,26 @@ h3 {
 #video-text {
     font-size: 30px;
 }
+
+.dark {
+    background-color:#81BEFB;
+}
+
+.light {
+    background-color: #FBBE81; 
+}
+
+.resource-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 43vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+    
+}
+
+
 
 
