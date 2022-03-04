@@ -8,12 +8,26 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="main-background">
-    <section class="first">
-    <h1>Yoga For Anyone, Anytime.</h1>
-    <button id="light-mode-btn" onclick="toggleDarkMode()">Light Mode</button>
+   
+    <!--Navigation-->
+    <section>
+        <nav>
+            <ul id="navigation">
+               <li><a href="#section-1">Mission</a></li> 
+               <li><a href="#section-2">About Yoga</a></li> 
+               <li><a href="#section-3">The Benefits</a></li> 
+               <li><a href="#section-4">Learn More</a></li>
+            </ul>
+        </nav>
     </section>
 
-    <section class="make-yoga-accessible">
+    <section class="first yoga-section light">
+    <h1>Yoga For Anyone, Anytime.</h1>
+     <!--Toggle Button-->
+     <button id="light-mode-btn" onclick="toggleDarkMode()">Switch!</button>
+    </section>
+
+    <section id="section-1" class="yoga-section dark">
     <img id="accessible-photo" src="accessible-photo.png">
     <h2>Make Yoga Accessible </h2>
             <p>
@@ -21,7 +35,7 @@
             </p>
     </section>
 
-    <section class="what-is-yoga">
+    <section id="section-2" class="yoga-section light">
     <img id="question-mark" src="question-mark.png">
     <h2>What is Yoga?</h2>
             <p>
@@ -29,22 +43,24 @@
             </p>
     </section>
 
-    <section class="benefits">
+    <section id="section-3" class="yoga-section dark">
     <img id="benefits-photo" src="benefits.png">
     <h2>Benefits:</h2>
         <ul id="benefits-list">
-            <li>Improves strength, balance, and flexibility</li>
-            <li>It can improve mental health and serve as a stress and anxiety reliever </li>
-            <li>May reduce chronic inflammation linked to heart disease, disabetes, arthritis, Chron's disease, and many other conditions</li>
-            <li>Helps develop inner awareness</li>
+            <li> - Improves strength, balance, and flexibility</li>
+            <li> - It can improve mental health and serve as a stress and anxiety reliever </li>
+            <li> - May reduce chronic inflammation linked to heart disease, disabetes, arthritis, Chron's disease, and many other conditions</li>
+            <li> - Helps develop inner awareness</li>
         </ul>
     </section>
 
-    <p id="resources">*Want To Start Your Yoga Practice, But Don't Know Where To Begin? <a href="resources.html">Click Here!</a>*</p>
-
+    <section id="section-4" class="yoga-section resource-section light">
+    <p id="resources"><b>* Want To Start Your Yoga Practice, But Don't Know Where To Begin?<a href="resources.html">Click Here!</a>*</b></p>
+    <!--Quote-->
     <blockquote>
         <p id="quote">“Yoga is not about touching your toes, it’s about what you learn on the way down.” -Jigor Gor</p>
     </blockquote>
+    </section>
 
     <script src="main.js"></script>
 </body>
